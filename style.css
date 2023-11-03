@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-container{
+padding: 1px;
+/* border: 1px solid black; */
+margin: 5px;
+display: grid;
+grid-template-columns: 29vw 69.6vw;
+grid-template-rows: 95vh;
+justify-content: space-between;
+}
+.sdrt{
+    background-color: white;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 712px;
+}
+.headcolr{
+    background-color: rgb(223, 182, 48);
+    color: white;
+    padding: 10px;
+    height: 20px;
+    font-size: large;
+    font-family: sans-serif;
+}
+.sdleft{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 712px;
+}
+.sdinner{
+    border: 1px dotted rgb(173, 173, 173);
+    display: flex;
+    background-color: rgb(242, 243, 243);
+    height: 30px;
+}
+button{
+    width: 10px;
+    height: 10px;
+    font-size: 6px;
+    background-color: gray;
+    color: white;
+}
+button:hover{
+    color: blue;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+}
+.contents{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    color: black;
+    height: 30px;
+    font-family:sans-serif;
+}
+a {
+    color: black; /* Set the default color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+/* a:visited {
+    color: rgb(0, 0, 0); Set the color for visited links to black as well */
+/* } */
+
+a:hover {
+    color: #0307d3; /* Change color on hover (you can choose a different color) */
+}
+.ctinner{
+    display: flex;
+    color: black;
+    font-family:sans-serif;
+    text-align: justify;
+    /* border: 1px solid rgb(255, 1, 234); */
+    padding: 10px;
+    font-size: large;
+    margin-top: 5px;
+}
+.ctinnerp2{
+    display: flex;
+    color: black;
+    font-family:sans-serif;
+    text-align: justify;
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-size: x-large;
+}
+.ctinner-sep{
+    display: flex;
+    color: black;
+    font-family:sans-serif;
+    text-align: justify;
+    /* border: 1px solid rgb(133, 3, 255); */
+    padding: 10px;
+    font-size: large;
+}
+.icons2{
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    padding-left: 15px;
+    /* border: 1px solid red; */
+}
+.ctinner-p3{
+    display: flex;
+    color: black;
+    font-family:sans-serif;
+    text-align: justify;
+    /* border: 1px solid rgb(255, 251, 1); */
+    padding-left: 10px;
+    font-size: large;
+}
+.btn2{
+    width: 8px;
+    height: 8px;
+    font-size: 4%;
+    font-weight: 500;
+    background-color: rgb(207, 207, 207);
+    color: rgb(240, 236, 236);
+    border: 1px solid rgb(182, 181, 181);
+    margin-top: 4px;
+} 
